@@ -37,20 +37,21 @@ ul li a:hover {
 }
 ul li a.active {
   background-color: #65882C;
+  color: black;
 }
 body {
     background-color: #333333;
     color: white; 
     font-family: "Roboto Condensed", sans-serif;
 
-}section {
-    width: 90%
+}main {
+    width: 55%;
     margin: 50px 50px;
     padding: 50px 20px;
     font-size: 20px;
     line-height: 2; 
     text-align: justify;
-    display:block
+    display:block;
     text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
     letter-spacing: 1px;
 }
@@ -96,12 +97,15 @@ footer {
 header h1 {
    line-height:1.5;
 }
+.profile-pic {
+    width: 300px;
+}
 }
 @media only screen and (min-width:650px) {
-    section {
+    main {
         width: 75%;
-        margin: 100px auto;
-        padding: auto
+        margin: 100px;
+        padding: auto;
     } 
     .pic {
     width: 600px;
@@ -112,9 +116,10 @@ header h1 {
     height: auto;
 }
 @media only screen and (min-width:1025px) {
-    section {
+    main {
         width: 60%;
         margin: 100px auto;
+         font-size: 22px;
     }
     .pic {
     width: 800px;
